@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="logo">MINI CHALLENGE</div>
+    </header>
+    <main>
+    <section class="hero">
+    <h1>Trang liên hệ trưởng khoa ngành</h1>
+    <p>Trang cần có các thông tin liên hệ của trưởng khoa ngành, bao gồm tên, chức vụ, địa chỉ email, số điện thoại và các thông tin khác liên quan đến công việc của trưởng khoa ngành.</p>
+    </section>
+    <section class="info">
+        <h2>Thông tin liên hệ</h2>
+        <table border="1">
+            <tr>
+                <th>Họ và tên</th>
+                <th>Chức vụ</th>
+                <th>Email</th>
+                <th>Số điện thoại</th>
+            </tr>
+            <tr>
+                <td>Nguyễn Văn A</td>
+                <td>Trưởng khoa ngành KHMT</td>
+                <td>nguyenvana@university.iuh.edu.vn</td>
+                <td>0123 456 789</td>
+            </tr>
+            <tr>
+                <td>Trần Thị B</td>
+                <td>Trưởng khoa ngành Kinh tế</td>
+                <td>tranthib@university.iuh.edu.vn</td>
+                <td>0987 654 321</td>
+            </tr>
+            <tr>
+                <td>Trần Văn C</td>
+                <td>Trưởng khoa ngành CNTT</td>
+                <td>tranvanc@university.iuh.edu.vn</td>
+                <td>0987 654 321</td>
+            </tr>
+            <tr>
+                <td>Lê Văn D</td>
+                <td>Trưởng khoa ngành Ngôn ngữ Anh</td>
+                <td>levand@university.iuh.edu.vn</td>
+                <td>0987 654 321</td>
+            </tr>
+        </table>
+        <forms action="POST">
+            <div>
+            <label for="sender">Tên người gửi: <input type="text" name="sender" id="sender"></label>
+            <label for="email">Email người gửi: <input type="email" name="email" id="email"></label>
+            <label for="receiver">Tên người nhận: <input type="text" name="receiver" id="receiver"></label>
+            </div>
+            <label for="message">Gửi thông tin: <br><textarea name="message" id="message" cols="80" rows="10" placeholder="Nhập thông tin cần gửi"></textarea></label>
+            <input type="submit" value="Gửi">
+            <input type="submit" value="Xóa">
+        </forms>    
+    </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 MINI CHALLENGE</p>
+    </footer>
+</body>
+</html>

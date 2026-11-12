@@ -1,0 +1,23 @@
+/* Yêu cầu 1: Hero có ảnh nền phủ kín, căn giữa, chữ trắng */
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600");
+  background-size: cover;        
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-color: #6f4e37;    
+  color: white;                 
+  padding: 80px 20px;    
+  text-align: center;
+}
+
+.posts article:first-of-type {
+  background-color: #ffe4ec;
+}
+
+article h3 + p {
+  background-color: #fffbeb;
+}
+
+nav a.active {
+  font-size: 1.5em;
+}
