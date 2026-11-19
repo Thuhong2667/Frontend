@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        .product-list {
+            display: flex;
+            gap: var(--space-unit);
+            justify-content: center;
+        }
+        .product-card {
+            position: relative;
+            width: 300px;
+            height: 400px;
+            border: 2px solid var(--main-color);
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .badge-sale {
+            position: absolute;
+            top: var(--space-unit);
+            right: var(--space-unit);
+            background-color: var(--badge-color);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: inherit;
+        }
+        .btn-heart {
+            position: absolute;
+            top: var(--space-unit);
+            left: var(--space-unit);
+        }
+        h3 {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        header {
+            background-color: var(--main-color);
+            color: white;
+            padding: var(--space-unit);
+            text-align: center;
+        }
+        header {
+            background-color: var(--main-color);
+            color: white;
+            padding: var(--space-unit);
+            text-align: center;
+        }
+        button {
+            background-color: var(--main-color);
+            color: rgb(195, 57, 57);
+        }
+        .btn-buy {
+            position: absolute;
+            bottom: var(--space-unit);
+            left: 50%;
+            border-radius: 5px;
+        }
+        :root {
+            --main-color: #a60dd4;
+            --badge-color: red;
+            --space-unit: 10px;
+        }
+    </style>   
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+    </header>
+    <div class="product-list">
+        <div class="product-card">
+            <button class="btn-heart">❤️</button>
+            <span class="badge-sale">Sale 30%</span>
+            <h3>Ten san pham</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7tmYKv6Hmo5fLLuYnrnFsTjUyL6n7WiEblnCAP9PprQ&s=10" alt="Product Image" style="width: 100%; height: 50%;">
+            <button class="btn-buy">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <button class="btn-heart">❤️</button>
+            <span class="badge-sale">Sale 30%</span>
+            <h3>Ten san pham</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7tmYKv6Hmo5fLLuYnrnFsTjUyL6n7WiEblnCAP9PprQ&s=10" alt="Product Image" style="width: 100%; height: 50%;">
+            <button class="btn-buy">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <button class="btn-heart">❤️</button>
+            <span class="badge-sale">Sale 30%</span>
+            <h3>Ten san pham</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7tmYKv6Hmo5fLLuYnrnFsTjUyL6n7WiEblnCAP9PprQ&s=10" alt="Product Image" style="width: 100%; height: 50%;">
+            <button class="btn-buy">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
